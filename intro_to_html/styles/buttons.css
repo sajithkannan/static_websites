@@ -1,0 +1,68 @@
+.Subscribe-button
+     {
+       background-color: rgb(204, 0, 0);
+       color: white;
+       border:none;
+       height:36px ;
+       width:110px;
+       border-radius: 3px;
+       cursor: pointer;
+       margin-right: 8px;
+       transition:opacity 0.15s;
+     }
+   
+     .Subscribe-button:hover 
+     {
+       opacity: 0.7;
+     }
+     .Subscribe-button:active
+      {
+       opacity: 0.5;
+     }
+   
+   
+    .Join-button
+     {
+      background-color:white ;
+      border-color: rgb(6, 95, 212);
+      color: rgb(6, 95, 212);
+      border-style: solid;
+      border-width: 1px;
+      height: 36px;
+      width: 62px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight:lighter;
+      transition:background-color 0.15s, color 0.20s;
+     }
+     .Join-button:hover
+     {
+       background-color:rgb(6, 95, 212);
+       color: white;
+     }
+     .Join-button:active
+     {
+       opacity: 0.7;
+     }
+   
+    .Tweet-button
+    {
+     background-color:rgb(29, 155, 240);
+     color: white;
+     height: 36px;
+     width: 74px;
+     border:none;
+     border-radius:18px;
+     font-weight: bold;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 8px;
+    }
+    .Tweet-button:hover
+    {
+     box-shadow: 2px 5px 10px  rgba(0, 0, 0, 0.15);
+    }
+   .Tweet-button:active
+    {
+     opacity: 0.7;
+    }
