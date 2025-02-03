@@ -1,0 +1,302 @@
+.row1 
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+  border-radius: 45px;
+}
+
+.row1_picture
+{
+width: 1150px;
+height: 550px;
+border-radius: 45px;
+opacity:0.3;
+}
+
+.row1_left
+{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 600px;
+  height: 550px;
+}
+
+.row1_p1
+{
+  width:300px;
+  color:rgba(255, 255, 255,1);
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 50px;
+  padding-left:50px;
+  margin-top: 10px;
+}
+
+.row1_p2
+{
+  color:rgba(255, 255, 255,1);
+  font-family: inter;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 50px;
+}
+
+.row1_button_container
+{
+  display: flex;
+  justify-content:center;
+  padding-top: 40px;
+  padding-right: 200px;
+  cursor: pointer;
+}
+
+.row1_left_button
+{
+  width: 150px;
+  height: 40px;
+  border-radius: 35px;
+  border-color:rgba(255, 255, 255,1);
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.row1_left_button:hover
+{
+  background: none;
+  color:rgba(255, 255, 255,1) ;
+}
+
+.row1_right_button
+{
+  width: 150px;
+  height: 40px;
+  border-radius: 35px;
+  border-color: rgba(255, 255, 255,1);
+  color: rgba(255, 255, 255,1);
+  background: none;
+  border: solid;
+  border-width:1px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.row1_right_button:hover
+{
+  background-color:rgba(255, 255, 255,1);
+  color: black;
+  border: none;
+}
+
+.row1_mouse_image
+{
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 473px;
+  right: 550px;
+}
+
+.row2_container
+{
+  display: flex;
+  justify-content:center;
+  padding-top: 100px;
+}
+  
+
+.row2_picture
+{
+width: 352px;
+height: 352px;
+margin-left: 10px;
+border-radius: 45px;
+}
+
+.row2_offer_text
+{
+  padding-left:140px;
+  font-style: inter;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(255, 255, 255,1);
+}
+
+.row2_p2
+{
+  padding-left: 50px;
+  color: rgba(255, 255, 255,1);
+  font-style: inter;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.row3_container
+{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.row3_picture
+{
+  height: 524px;
+  width: 540px;
+  border-radius: 45px;
+}
+
+.row3_p_container
+{
+  margin-right: 70px;
+}
+
+.row3_p1
+{
+color: rgba(255, 255, 255,1);
+font-style: inter;
+font-weight: 400;
+font-size: 18px;
+}
+
+.row3_p2
+{
+color: rgba(255, 255, 255,1);
+font-style: poppins;
+font-weight: 700;
+font-size: 60px;
+width: 400px;
+}
+
+.row3_p3
+{
+color: rgba(255, 255, 255,1);
+font-style: inter;
+font-weight: 400;
+font-size: 18px;
+
+}
+
+.row3_button
+{
+  margin-top: 20px;
+  color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.row3_button:hover
+{
+  background:none;
+  color: rgba(255, 255, 255,1);
+}
+
+.row4_container
+{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.row4_picture
+{
+  height: 524px;
+  width: 540px;
+  border-radius: 45px;
+}
+
+.row4_p_container
+{
+  margin-left: 70px;
+}
+
+.row4_p1
+{
+color: rgba(255, 255, 255,1);
+font-style: inter;
+font-weight: 400;
+font-size: 18px;
+}
+
+.row4_p2
+{
+color: rgba(255, 255, 255,1);
+font-style: poppins;
+font-weight: 700;
+font-size: 60px;
+width: 400px;
+}
+
+.row4_p3
+{
+color: rgba(255, 255, 255,1);
+font-style: inter;
+font-weight: 400;
+font-size: 18px;
+
+}
+
+.row4_button
+{
+  margin-top: 20px;
+  color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.row4_button:hover
+{
+  background:none;
+  color: rgba(255, 255, 255,1);
+}
+
+.row5_photo_container
+{
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+
+.row5_picture
+{
+  margin-left: 30px;
+  width: 237px;
+  height: 230px;
+  border-radius: 45px;
+}
+
+.row5_name
+{
+  color: rgba(255, 255, 255,1);
+  font-family: inter;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 85px;
+}
+
+.row5_name_jobe
+{
+  color:rgba(255, 255, 255,1);
+  font-family: inter;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 105px;
+}
+
+.row5_sales_jobe
+{
+  color:rgba(255, 255, 255,1);
+  font-family: inter;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 130px;
+}

@@ -1,0 +1,88 @@
+.row1-container
+{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  
+}
+
+.row1-heading
+{
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  max-width:800px;
+  font-style:normal ;
+  font-weight:500;
+  text-align: center;
+  line-height:100px;
+}
+
+.row1-paragraph
+{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  max-width:800px;
+  font-style:normal ;
+  font-weight:400;
+}
+
+.row1-row3
+{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top:40px;
+}
+
+.row1-row3-paragraph
+{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style:normal ;
+  font-weight:400;
+  padding-left: 50px;
+}
+
+.row3-container
+{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.row3-paragraph
+{
+  padding-left: 600px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-style: normal;
+  font-weight:600;
+  width:700px;
+}
+
+.row3-buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 700px;
+  height: 100px;
+  align-items: center;
+  margin-left: 600px;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}

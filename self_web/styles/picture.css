@@ -1,0 +1,11 @@
+.row2-banner
+{
+  padding-top: 50px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
