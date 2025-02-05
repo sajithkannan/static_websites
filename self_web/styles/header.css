@@ -1,56 +1,67 @@
 body
 {
-  margin-top: 0%;
-  margin-left:50px;
-  margin-right: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+body, header, footer, a{
+  color: white;
   background-color: rgb(43, 41, 41);
 }
 
+
+
 header
-{
-  border-bottom: 1px solid white ;
+{ 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0% 10%;
   align-items: center;
-  height: 100px;
+  height: 150px;
+  cursor: pointer;
 }
 
 .header-left-side
 {
-  color: rgb(225, 225, 225);
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
 }
 
-.header-middle-section-left
+.header-middle
 {
-  padding-left: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  padding-left:5%;
 }
 
-.header-middle-text
+.header-middle-left 
 {
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left:20px;
-  color: rgb(225, 225, 225);
+  padding-left:10%;
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.header-middle-left a
+{
+  text-decoration: none;
+}
+
 
 .header-middle-section-right
 {
-  padding-left: 100px;
-  width: 100px;
   object-fit: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-right: 5%;
 }
 
 .header-middle-right-picture
@@ -60,16 +71,16 @@ margin-left: 10px;
 
 .header-right-section
 {
-  padding-left: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  padding: 2%;
 }
 
 .header-right-section-button
 {
+  cursor: pointer;
   box-shadow: 3px 3px black;
   font-style:normal;
   font-weight: 500;

@@ -1,12 +1,11 @@
 .row1-container
 {
+  flex-direction: column;
   display: flex;
-  flex-direction:column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  
+  padding: 5%;
+  flex-wrap: wrap;
 }
 
 .row1-heading
@@ -17,7 +16,7 @@
   font-style:normal ;
   font-weight:500;
   text-align: center;
-  line-height:100px;
+  padding-bottom: 5%;
 }
 
 .row1-paragraph
@@ -27,16 +26,17 @@
   max-width:800px;
   font-style:normal ;
   font-weight:400;
+  padding-bottom: 5%;
 }
 
 .row1-row3
 {
- 
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-top:40px;
+  flex-wrap: wrap;
 }
 
 .row1-row3-paragraph
@@ -48,24 +48,26 @@
   padding-left: 50px;
 }
 
+.row1-row3-paragraph a
+{
+  text-decoration: none;
+}
+
 .row3-container
 {
-  padding-top: 70px;
+  padding: 3% 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
+  align-items: flex-end;
 }
 
 .row3-paragraph
 {
-  padding-left: 600px;
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-style: normal;
   font-weight:600;
-  width:700px;
+  width:50%;
 }
 
 .row3-buttons
@@ -76,7 +78,7 @@
   background: none;
   border: none;
   color: rgb(255, 255, 255);
-  width: 700px;
+  width: 50%;
   height: 100px;
   align-items: center;
   margin-left: 600px;
@@ -85,4 +87,232 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+}
+
+.row4-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+  padding: 8% 10%;
+  flex-wrap: wrap;
+}
+
+.row4-r1-left-section
+{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding:7% 5%;
+  display: flex;
+  flex-direction: column;
+  width:38%;
+}
+
+.row4-r1-left-r1pic
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 50px;
+  width:70px;
+  padding-bottom: 10px;
+}
+
+.row4-r1-left-p1
+{
+  font-size: 52px;
+  width:40%px;
+}
+
+.row4-r1-left-p2
+{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width:70%;
+}
+
+.row4-r1-left-r4
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row4-r1-left-r4p
+{
+  font-size: 18px;
+  font-style: normal;
+  font-weight:500;
+  object-fit: cover;
+}
+
+.row4-r1-left-r4pic
+{
+  width: 16px;
+  padding-left: 10px;
+}
+
+.row4-r1-right-section
+{
+  color: black;
+  padding:6% 5%;
+  background-color: rgb(255, 207, 119);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:38%;
+}
+
+.row4-r1-right-r1
+{
+  background-color: rgb(236, 116, 149);
+  padding:3% 3%;
+  width: 7%;
+  border-radius:30px;
+  font-size:25px;
+}
+
+.row4-r1-right-p1
+{
+  font-size: 52px;
+  width:80%;
+}
+
+.row4-r1-right-p2
+{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width:80%;
+}
+
+.row4-r1-right-r4
+{
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-style: normal;
+  font-weight:500;
+  object-fit: cover;
+}
+
+.row4-r1-right-r4pic
+{
+  width: 16px;
+  padding-left: 10px;
+}
+
+.row5-main
+{
+  padding: 0% 10%;
+}
+.row5-container
+{
+  color: black;
+  background-color: rgb(143, 167, 223);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row5-container-left
+{
+padding: 5% 5%;
+width: 50%;
+}
+
+.row5-p1
+{
+  font-family: inter;
+  font-weight: 500;
+  font-size: 52px;
+  width:100%;
+}
+
+.row5-p2
+{
+  font-size: 20px;
+  width:80%;
+}
+
+.row5-r4 a
+{
+ text-decoration: none;
+ background: none;
+ color: black;
+}
+
+.row5-r4-arrow
+{
+  padding-left: 1%;
+}
+
+.row6-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5% 10%;
+}
+
+.row6-p1
+{
+color: rgb(255, 207, 119);
+font-size: 20px;
+letter-spacing: 1px;
+
+}
+
+.row6-p2
+{
+  font-size: 72px;
+  width: 50%;
+}
+
+.row6-p3
+{
+font-size: 20px;
+width: 50%;
+line-height: 27px;
+}
+
+.row8-left-p1
+{
+color:rgb(255, 207, 119) ;
+letter-spacing: 1px;
+
+}
+
+.row8-left-p2
+{
+  font-size: 72px;
+  letter-spacing: 1px;
+}
+
+.row8-left-p3
+{
+  font-size: 20px;
+  line-height:27px;
+}
+
+.row9-right-p1
+{
+  color:rgb(255, 207, 119) ;
+  letter-spacing: 1px;
+}
+
+.row9-right-p2
+{
+  font-size: 72px;
+  letter-spacing: 1px;
+}
+
+.row9-right-p3
+{
+  font-size: 20px;
+  line-height:27px;
 }

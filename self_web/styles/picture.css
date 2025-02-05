@@ -1,11 +1,50 @@
 .row2-banner
 {
-  padding-top: 50px;
-  object-fit: cover;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.row5-small-pic
+{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:60px;
+  height: 60px;
+  border-radius:50px;
+  background-color: black;
 }
+
+.row5-container-right 
+{
+  width: 50%;
+  display: flex;
+  align-items:flex-end;
+  padding-right: 5%;
+}
+
+.row5-container-right img
+{
+  width: 100%;
+}
+
+.row8-container-right
+{
+  width:40%;
+  display: flex;
+  align-items: center;
+}
+
+.row9-container-left
+{
+  width:40%;
+  display: flex;
+  align-items: center;
+}
+
+
 
 
