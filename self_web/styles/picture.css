@@ -1,9 +1,9 @@
 .row2-banner
 {
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .row5-small-pic
@@ -33,16 +33,14 @@
 
 .row8-container-right
 {
-  width:40%;
+  width:50%;
   display: flex;
   align-items: center;
 }
 
 .row9-container-left
 {
-  width:40%;
-  display: flex;
-  align-items: center;
+  width:50%;
 }
 
 

@@ -3,7 +3,7 @@ header
   background-color:rgba(27, 3, 78,1);
   position: fixed;
   height:100px;
-  z-index:120;
+  z-index:100;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -14,9 +14,15 @@ header
   cursor: pointer;
 }
 
-.left_section
+.left_section,
+.middle_text,
+.right_section
 {
   color: rgba(255, 255, 255,1);
+}
+
+.left_section
+{
   font-family: poppins;
   font-size: 20px;
   font-weight: 700;
@@ -40,7 +46,6 @@ header
   height:30px;
   padding-left:35px;
   padding-top: 13px;
-  color: rgba(255, 255, 255,1);
   font-family: inter;
   font-weight: 400;
   font-size: 12px;
@@ -59,7 +64,6 @@ header
   border-color: rgba(255, 255, 255,1);
   border: solid;
   border-radius: 20px;
-  color: rgba(255, 255, 255,1);
   display: flex;
   align-items: center;
   justify-content: center;

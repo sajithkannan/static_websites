@@ -316,3 +316,33 @@ letter-spacing: 1px;
   font-size: 20px;
   line-height:27px;
 }
+
+.row10-r2-container button,
+.row13-container button
+{
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+  font-size:15px;
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: rgb(255, 207, 119);
+}
+
+.row11-container button
+{
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+  font-size:15px;
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: rgb(157, 218, 219);
+}
+
+.row12-container p
+{
+  font-size: 20px;
+  width:80%;
+  padding-top: 3%;
+}

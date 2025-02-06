@@ -96,9 +96,10 @@
 
 .row9-container-right
 {
+  padding-left: 5%;
   display: flex;
   flex-direction:column;
-  width: 50%;
+  width:50%;
 }
 
 .row9-r4-container
@@ -112,5 +113,77 @@
   margin-top: 5%;
 }
 
+.row10-container
+{
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  align-items: flex-start;
+}
 
+.row10-r1-container
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ line-height: 0%;
+ padding-top: 5%;
+}
 
+.row10-r2-container,
+.row10-r3-container,
+.row10-r4-container,
+.row10-r5-container
+{
+  padding: 3% 0%;
+}
+
+.row11-container
+{
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 207, 119);
+    color: black;
+}
+
+.row12-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2% 15%;
+  align-items: flex-start;
+}
+
+.row12-branch-container
+{
+  padding: 1% 0%;
+  border-top: 1px solid white;
+}
+
+.row13-container
+{
+  display: flex;
+  flex-direction: row;
+  padding: 5% 10%;
+  justify-content:space-between;
+}
+
+.row14-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5% 10%;
+}
+
+.row14-container a
+{
+  text-decoration: none;
+  padding-top: 25px;
+}
