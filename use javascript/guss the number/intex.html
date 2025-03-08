@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Number Guessing Game</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url(number\ pic.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            margin: 0 ;
+            padding: 0;
+            height: 100vh;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+  <div class="form" style="background-color: rgb(160, 128, 128); width:50%; height:50%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h1 style="text-align: center; text-decoration: underline; color: rgb(255, 242, 0);">Guess The Number</h1>
+    <p style="text-align: center;">
+        We have selected a random number
+        between <br>  1 - 100.See if you can
+        guess it.
+    </p>
+
+        <label for="guessField">
+            Enter a guess:
+        </label>
+
+        <input type="text" / 
+               id="guessField" 
+               class="guessField" style="margin:20px; width:80px;">
+
+        <input type="submit" 
+               value="Submit guess" 
+               class="guessSubmit" 
+               id="submitguess" style="height:30px; width: 150px; font-size: 15px; background-color: bisque;">
+    </div>
+
+    <script type="text/javascript">
+
+        // Generate a Random Number
+        let y = Math.floor(Math.random() * 100 + 1);
+
+        // Counting the number of guesses
+        // made for correct Guess
+        let guess = 1;
+
+        document.getElementById("submitguess").onclick = function () {
+
+            // Number guessed by user    
+            let x = document.getElementById("guessField").value;
+
+            if (x == y) {
+                alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
+                    + guess + " GUESS ");
+            }
+
+            /* If guessed number is greater than actual number*/
+            else if (x > y) {
+                guess++;
+                alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+            }
+            else {
+                guess++;
+                alert("OOPS SORRY!! TRY A GREATER NUMBER")
+            }
+        }
+    </script>
+</body>
+
+</html>
